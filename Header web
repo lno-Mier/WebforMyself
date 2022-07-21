@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Статьи и Материалы</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+		.logo_left_img{
+			background-color: #33334F;
+		}
+		.logo{
+			width: 241px;
+			height: 47px;
+		}
+		.text{
+			float: right;
+			border-right: solid 1px;
+			border-color: #ffffff;
+			color: #FFFFFF;
+			padding:9px;
+		}
+		.text:hover{
+			float: right;
+			border-right: solid 1px;
+			border-color: #ffffff;
+			color: #FFFFFF;
+			padding:9px;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo_left_img">
+			<img src="logo.jpg">
+			<p class="text">
+				Для новичков
+			</p>
+			<p class="text">
+				Статьи и материалы
+			</p>
+			<p class="text">
+				Премиум материалы
+			</p>
+			<p class="text">
+				Видео курсы
+			</p>
+			<p class="text">
+				Форум
+			</p>
+		</div>
+	</header>
+</body>
+</html>
