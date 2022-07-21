@@ -37,19 +37,19 @@
 		<div class="logo_left_img">
 			<img src="logo.jpg">
 			<p class="text">
-				Для новичков
-			</p>
-			<p class="text">
-				Статьи и материалы
-			</p>
-			<p class="text">
-				Премиум материалы
+				Форум
 			</p>
 			<p class="text">
 				Видео курсы
 			</p>
 			<p class="text">
-				Форум
+				Премиум материалы
+			</p>
+			<p class="text">
+				Статьи и материалы
+			</p>
+			<p class="text">
+				Для новичков
 			</p>
 		</div>
 	</header>
