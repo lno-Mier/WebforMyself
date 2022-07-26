@@ -3,73 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Статьи и Материалы</title>
+	<title>WebforMyself</title>
 	<style type="text/css">
 		body{
 			margin: 0px;
 		}
-		.logo_left_img{
+		.container_left_image{
 			background-color: #2b394a;
-			border: solid 4px;
-			border-color: #2b394a;
+			width: 1349px;
+			height: 56px;
 		}
 		.logo{
-			width: 241px;
-			height: 47px;
+			padding-left: 8px;
+			padding-top: 4px;
 		}
-		.text{
-			float: right;
+		.text-1{
+			color: #ffffff;
 			border-right: solid 1px;
+			border-bottom: solid 1px;
 			border-color: #ffffff;
-			background-position: right center;
+			padding-left: 8px;
+			padding-right: 9px;
 			padding-bottom: 100px;
-			padding-left: 9px;
-			padding-right: 9px;	
-			color: #FFFFFF;
-			font-family: gerbera;
-		}
-		.text:hover{
-			text-decoration: underline;
-			
-		}
-		.text_last{
 			float: right;
-			background-position: right center;
-			padding-bottom: 100px;
-			padding-left: 9px;
-			padding-right: 9px;	
-			color: #FFFFFF;
-			font: lighter;
+			overflow: hidden;
 		}
-		.text_last:hover{
+		.text-1:hover{
 			text-decoration: underline;
 		}
-		.logo_left_img>.div_menu{
-			width: 807px;
-			height: 57px;
-			background-color: #2b394a;
+		.text-2{
+			color: #ffffff;
+			padding-left: 8px;
+			padding-right: 9px;
+			padding-bottom: 100px;
+			float: right;
+		}
+		.text-2:hover{
+			text-decoration: underline;
+		}
+		.menu{
+			float: right;
+			width: 806px;
+			height: 104px;
 		}
 	</style>
 </head>
 <body>
 	<header>
-		<div class="logo_left_img">
-			<img src="logo.jpg" class="logo">
-			<p class="text_last">
-				Форум
-			</p>
-			<p class="text">
-				Видео курсы
-			</p>
-			<p class="text">
-				Премиум материалы
-			</p>
-			<p class="text">
-				Статьи и материалы
-			</p>
-			<p class="text">
-				Для новичков
-			</p>
+		<div class="container_left_image">
+			<a>
+				<img src="logo.jpg" class="logo" alt="WebforMyself">
+			</a>
+			<div class="menu">
+				<ul>
+					<ul class="text-2">Форум</ul>
+					<ul class="text-1">Видео курсы</ul>
+					<ul class="text-1">Премиум материалы</ul>
+					<ul class="text-1">Статьи и материалы</ul>
+					<ul class="text-1">Для новичков</ul>
+				</ul>
+			</div>
 		</div>
 	</header>
 </body>
